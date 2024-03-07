@@ -1,0 +1,48 @@
+.Container {
+  height: 100vh;
+}
+
+.HeaderWrapper {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow;
+  position: sticky;
+  top:0;
+}
+
+.ListWrapper {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.ListWrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ListWrapper li {
+  margin-top: 8px;
+}
+
+.ListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: 10px;
+  background-color: skyblue;
+}
+
+.InputWrapper {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: lightgrey;
+  margin-top: auto;
+}
